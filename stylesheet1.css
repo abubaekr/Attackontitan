@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+Body{
+    background-color: black;
+}
+
+#time{
+    background-color:rgba(255, 255, 255, 0.281);
+    width:150px;
+}
+div{
+    background-color:rgb(54, 13, 13);
+   
+}
+img{
+    width:150px;
+    
+}
+    
+    

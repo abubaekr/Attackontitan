@@ -1,0 +1,121 @@
+/* Reset default margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-image: url(img2.jpg);
+  background-size: cover;
+}
+
+/* Header */
+header {
+  background-color: black;
+}
+
+/* Navigation */
+nav {
+  background-color: black;
+  display: inline-block;
+  padding: 10px;
+}
+
+/* Navigation links */
+a {
+  margin-right: 20px;
+  color: blueviolet;
+  background-color: rgba(255, 0, 0, 0.308);
+  font-size: 16px;
+  border-radius: 3px;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: crimson;
+  color: white;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+  background-color: red;
+  color: white;
+  width: 150px;
+  margin: 10px auto;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: 150px;
+  margin: 10px auto;
+}
+
+/* List items */
+li {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  background-color: rgba(210, 105, 30, 0.315);
+  color: white;
+  margin: 5px;
+}
+
+/* Main section */
+main {
+  background-color: rgba(0, 0, 0, 0.432);
+  font-size: 18px;
+  padding: 10px;
+}
+
+/* Paragraph */
+p {
+  line-height: 1.8;
+  color: white;
+  background-color: rgba(245, 245, 220, 0.151);
+  display: inline-block;
+  padding: 10px;
+}
+
+/* Video section */
+#v1 {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  justify-content: center;
+  background-color:rgba(0, 0, 0, 0.555);
+}
+
+video {
+  width: 300px;
+  height: 300px;
+}
+
+/* Footer */
+footer {
+  background-color: red;
+  width: 300px;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Button */
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
